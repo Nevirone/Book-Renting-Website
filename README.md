@@ -1,16 +1,4 @@
-composer install
-
-npm install
-
-copy .env.example and rename it to .env
-
-Change DB_DATABASE to name of your database (change username and password if required)
-
-php artisan key:generate
-
-php artisan migrate
-
-To setup project locally you need few steps:
+# To setup project locally you need few steps:
 
 # Clone this repository
 git clone https://github.com/Nevirone/booking-site.git FOLDER_NAME
