@@ -1,24 +1,21 @@
-# To setup project locally you need few steps:
+# Book Renting Site
 
-# Clone this repository
-git clone https://github.com/Nevirone/booking-site.git FOLDER_NAME
+This application was created as part of a project for the course "Web Applications".
 
-# Move to cloned repository
-cd FOLDER_NAME
+## Installation
 
-# Install dependencies
-composer install
-npm install
+To install and run the app locally, follow these steps:
 
-# Copy .env.example file and renamt it to .env
-
-# Change DB_DATABASE to your database name
-# Change DB_USERNAME and DB_PASSWORD if required
-
-# Generate application key
-php artisan key:generate
-
-# Migrate tables to database
-php artisan migrate
-
-All done, good job
+1. Clone the repository:
+   git clone https://github.com/Nevirone/books-site.git
+2. Install application dependencies:
+  compose install
+  npm install
+3. Update enviroment variables
+  Rename .env.example to .env
+  Change DB_DATABASE to your database name
+  Change DB_USERNAME and DB_PASSWORD to your database credentails
+4. Generate application key
+  php artisan key:generate
+5. Migrate to database
+  php artisan migrate
